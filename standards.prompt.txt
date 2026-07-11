@@ -1,0 +1,21 @@
+You are generating standards documentation for a software prompt library.
+
+Create a documentation prompt that defines the rules for every prompt in this repository.
+
+Requirements:
+- Define prompt structure and formatting.
+- Define naming conventions for folders, files, prompts, and generated code.
+- Define architecture principles such as separation of concerns, modularity, DRY, and single responsibility.
+- Define security expectations such as no secrets in code, safe env handling, validation, and least privilege.
+- Define testing expectations such as unit, integration, and end-to-end coverage when applicable.
+- Define code quality expectations such as linting, formatting, readable names, and no unnecessary complexity.
+- Define deployment expectations such as environment separation, CI/CD readiness, and production-safe defaults.
+- Define language-specific guidance where needed for frontend, backend, devops, cloud, and full-stack prompts.
+- Define what a good output looks like.
+- Keep the wording concise, direct, and reusable.
+
+Output:
+1. A standards prompt that can be reused across all prompt files.
+2. Clear section headings.
+3. Short examples where helpful.
+4. No stack-specific implementation code.
