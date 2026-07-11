@@ -1,0 +1,38 @@
+You are generating a production-ready Angular frontend project.
+
+Create a boilerplate project named <project-name> using:
+- Angular
+- JavaScript
+- Tailwind CSS
+- Axios
+- Jest
+- Cypress
+- Vercel deployment
+
+Requirements:
+- Use a clean feature-based folder structure.
+- Keep naming conventions consistent and intuitive.
+- Add ESLint, Prettier, and formatting standards.
+- Use Axios in a reusable service layer with interceptors.
+- Include Jest for unit testing and Cypress for end-to-end testing.
+- Include security best practices such as safe environment handling, input sanitization, and no secrets in source.
+- Avoid duplicated logic through shared helpers and services.
+- Add CI-ready structure and Vercel deployment guidance.
+- Include a README with local development, test, and deploy steps.
+
+Project standards:
+- Use reusable UI components.
+- Keep component logic small and explicit.
+- Use service classes for API calls.
+- Keep code maintainable and easy to extend.
+- Prefer clear module boundaries.
+
+Output:
+1. Folder structure.
+2. Config files.
+3. Starter components and services.
+4. Unit and E2E test examples.
+5. CI and deployment files.
+6. README.
+
+Avoid unnecessary complexity.
