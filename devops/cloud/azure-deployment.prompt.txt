@@ -1,0 +1,30 @@
+You are generating an Azure-only deployment boilerplate.
+
+Create an Azure deployment project named <project-name>-azure-deploy for an application that will run only on Azure.
+
+Requirements:
+- Use Azure-native deployment patterns only.
+- Include guidance for Azure App Service, Azure Container Apps, AKS, or Azure Functions depending on the workload type.
+- Add Azure identity and least-privilege access guidance using managed identities and role assignments.
+- Include container registry setup using Azure Container Registry when containers are used.
+- Include secrets management using Azure Key Vault.
+- Include deployment automation using GitHub Actions or Azure DevOps pipelines.
+- Include infrastructure-as-code examples using Bicep, ARM templates, or Terraform.
+- Include monitoring/logging with Azure Monitor and Application Insights.
+- Include environment separation for dev, stage, and prod.
+- Add security checks for image scanning, secret scanning, and policy validation.
+- Include a Makefile, shell scripts, PowerShell scripts, and README instructions.
+
+Project standards:
+- Keep Azure resources modular.
+- Use clear naming for resource groups, apps, identities, and environments.
+- Prefer reusable Bicep modules or Terraform modules.
+- Keep deployment workflows idempotent.
+- Avoid multi-cloud abstractions.
+
+Output:
+1. Azure-focused folder structure.
+2. Config and IaC files.
+3. CI/CD workflow files.
+4. Deployment scripts.
+5. README.
