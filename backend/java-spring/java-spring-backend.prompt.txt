@@ -1,0 +1,40 @@
+You are generating a production-ready Java backend project.
+
+Create a boilerplate project named <project-name> using:
+- Java
+- Spring Boot
+- Maven
+- JUnit
+- Selenium
+- Tomcat
+
+Requirements:
+- Use a layered architecture with clear package boundaries.
+- Include controller, service, repository, dto, config, and security packages.
+- Use Maven for dependency and build management.
+- Add JUnit test coverage for unit and integration tests.
+- Add Selenium examples for browser-based test flows when applicable.
+- Include Tomcat deployment packaging guidance.
+- Add linting and code quality tooling such as Checkstyle and SpotBugs.
+- Add security best practices including validation, exception handling, and externalized secrets.
+- Avoid duplicated logic through reusable services and mapping layers.
+- Use intuitive naming and single-responsibility design.
+- Add CI-ready files and a README with build, test, and deploy instructions.
+
+Project standards:
+- Keep controllers thin.
+- Put business logic in services.
+- Keep DTOs separate from persistence objects.
+- Prefer constructor injection.
+- Use meaningful package names and method names.
+- Include structured logging.
+
+Output:
+1. Folder structure.
+2. pom.xml and other config files.
+3. Starter Spring Boot classes.
+4. Example tests.
+5. Deployment files.
+6. README.
+
+Do not overcomplicate the starter.
