@@ -1,0 +1,30 @@
+You are generating an AWS-only deployment boilerplate.
+
+Create an AWS deployment project named <project-name>-aws-deploy for an application that will run only on AWS.
+
+Requirements:
+- Use AWS-native deployment patterns only.
+- Include guidance for ECS Fargate, EKS, Lambda, or App Runner depending on the workload type.
+- Add IAM least-privilege guidance and avoid over-permissioned roles.
+- Include container registry setup using ECR when containers are used.
+- Include secrets management using AWS Secrets Manager or SSM Parameter Store.
+- Include deployment automation using GitHub Actions or AWS CodePipeline.
+- Include infrastructure-as-code examples using Terraform or CloudFormation.
+- Include monitoring/logging with CloudWatch and optional X-Ray.
+- Include environment separation for dev, stage, and prod.
+- Add security checks for image scanning, secret scanning, and policy validation.
+- Include a Makefile, shell scripts, and README instructions.
+
+Project standards:
+- Keep AWS resources modular.
+- Use clear naming for stacks, services, roles, and environments.
+- Prefer reusable Terraform modules or CloudFormation templates.
+- Keep deployment workflows idempotent.
+- Avoid multi-cloud abstractions.
+
+Output:
+1. AWS-focused folder structure.
+2. Config and IaC files.
+3. CI/CD workflow files.
+4. Deployment scripts.
+5. README.
