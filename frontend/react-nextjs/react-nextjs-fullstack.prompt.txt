@@ -1,0 +1,41 @@
+You are generating a production-ready Next.js full-stack project.
+
+Create a boilerplate project named <project-name> using:
+- React
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Node.js
+- Vitest and/or Jest
+- Vercel deployment
+
+Requirements:
+- Use strict TypeScript settings.
+- Use feature-based folder structure.
+- Enforce linting, formatting, and consistent naming conventions.
+- Avoid code duplication with reusable components and shared utilities.
+- Include security best practices such as safe env handling, no secrets in source, input validation, and secure defaults.
+- Include testing setup for unit, component, and integration tests.
+- Include CI-ready structure for GitHub Actions.
+- Add Vercel-friendly deployment configuration.
+- Include accessible UI patterns and performance-conscious defaults.
+- Generate a README with setup, testing, linting, and deployment instructions.
+
+Project standards:
+- Prefer small focused components.
+- Use clear domain-based names.
+- Keep business logic separate from UI.
+- Use typed API wrappers and validation schemas.
+- Keep styles modular and maintainable.
+- Use comments only when the code is not self-explanatory.
+
+Output:
+1. Folder structure.
+2. Key config files.
+3. Starter source files.
+4. Test files.
+5. Deployment and CI files.
+6. README.
+
+Do not include unnecessary libraries.
+Do not add sample code that violates DRY, security, or maintainability principles.
