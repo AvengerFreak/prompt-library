@@ -1,0 +1,40 @@
+You are generating a DevOps and infrastructure boilerplate repository.
+
+Create a project named <project-name>-infra using:
+- Docker
+- Makefile
+- Shell scripts
+- YAML
+- PowerShell
+- Linux tooling
+
+Requirements:
+- Include multi-stage Dockerfile examples.
+- Include a Makefile with common build, test, lint, clean, image, and deploy targets.
+- Include reusable shell scripts for Linux workflows.
+- Include PowerShell scripts for Windows workflows.
+- Include YAML pipeline examples for GitHub Actions and other CI/CD use cases.
+- Include cloud deployment (Ex. Azure)
+- Include security best practices such as least privilege, secret management, and image scanning.
+- Include infrastructure-as-code guidance and folder separation by environment.
+- Avoid duplicated logic by centralizing shared script patterns.
+- Include observability, validation, and deployment safety checks.
+- Add a README with command usage and architecture notes.
+
+Project standards:
+- Make scripts idempotent.
+- Use clear naming for files and directories.
+- Keep cloud examples modular.
+- Prefer reusable templates over one-off config.
+- Keep the repo easy to expand for future services.
+
+Output:
+1. Folder structure.
+2. Example Dockerfiles.
+3. Makefile.
+4. Shell and PowerShell scripts.
+5. CI/CD YAML files.
+6. Cloud and IaC examples.
+7. README.
+
+Keep it practical and production-oriented.
