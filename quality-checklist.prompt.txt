@@ -1,0 +1,22 @@
+You are generating a quality checklist for validating prompts and generated projects.
+
+Create a checklist prompt that reviews whether a generated project meets the standards of this prompt library.
+
+Requirements:
+- Check correctness and completeness.
+- Check security and secret handling.
+- Check code quality and maintainability.
+- Check folder structure and file naming.
+- Check testing coverage and test organization.
+- Check deployment readiness and config hygiene.
+- Check linting, formatting, and static analysis setup.
+- Check duplication and architecture clarity.
+- Check documentation quality, including README and setup instructions.
+- Include pass/fail criteria and a short remediation note for each failed item.
+- Keep the checklist practical and easy to use.
+
+Output:
+1. A checklist formatted in sections.
+2. A pass/fail or yes/no structure.
+3. A short action item for each failed item.
+4. A final readiness verdict.
