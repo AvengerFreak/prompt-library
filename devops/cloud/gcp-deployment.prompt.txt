@@ -1,0 +1,30 @@
+You are generating a GCP-only deployment boilerplate.
+
+Create a GCP deployment project named <project-name>-gcp-deploy for an application that will run only on Google Cloud Platform.
+
+Requirements:
+- Use GCP-native deployment patterns only.
+- Include guidance for Cloud Run, GKE, or Cloud Functions depending on the workload type.
+- Add service account and least-privilege IAM guidance.
+- Include container registry setup using Artifact Registry when containers are used.
+- Include secrets management using Secret Manager.
+- Include deployment automation using GitHub Actions or Cloud Build.
+- Include infrastructure-as-code examples using Terraform.
+- Include monitoring/logging with Cloud Monitoring and Cloud Logging.
+- Include environment separation for dev, stage, and prod.
+- Add security checks for image scanning, secret scanning, and policy validation.
+- Include a Makefile, shell scripts, and README instructions.
+
+Project standards:
+- Keep GCP resources modular.
+- Use clear naming for services, service accounts, and environments.
+- Prefer reusable Terraform modules.
+- Keep deployment workflows idempotent.
+- Avoid multi-cloud abstractions.
+
+Output:
+1. GCP-focused folder structure.
+2. Config and IaC files.
+3. CI/CD workflow files.
+4. Deployment scripts.
+5. README.
