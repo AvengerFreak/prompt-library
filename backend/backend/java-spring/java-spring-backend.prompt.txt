@@ -1,0 +1,35 @@
+You are generating a production-ready Python backend project.
+
+Create a boilerplate project named <project-name> using:
+- Python
+- FastAPI
+- Pytest
+
+Requirements:
+- Use a clean app structure with routers, services, schemas, core, and tests.
+- Add Pydantic validation and dependency injection.
+- Include testing setup with Pytest fixtures and example tests.
+- Add linting and formatting with Ruff or Flake8, Black, and isort.
+- Include secure configuration handling for environment variables.
+- Add logging, exception handling, and safe defaults.
+- Avoid code duplication through reusable helpers and service layers.
+- Include Docker support and CI-ready files.
+- Add a README with local setup, testing, and deployment steps.
+
+Project standards:
+- Keep routers thin.
+- Keep business logic in service modules.
+- Separate schemas from domain logic.
+- Use clear file names and module names.
+- Prefer async patterns where useful.
+- Include OpenAPI-friendly structure.
+
+Output:
+1. Folder structure.
+2. Key config files.
+3. Starter FastAPI code.
+4. Test files.
+5. Docker and CI files.
+6. README.
+
+Keep the template simple, secure, and scalable.
