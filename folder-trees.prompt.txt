@@ -1,0 +1,22 @@
+You are generating example folder trees for a software prompt library.
+
+Create a documentation prompt that shows example repository trees for common project types.
+
+Requirements:
+- Provide an example tree for frontend projects.
+- Provide an example tree for backend projects.
+- Provide an example tree for DevOps/infrastructure projects.
+- Provide an example tree for cloud-specific deployment projects.
+- Provide an example tree for full-stack monorepo projects.
+- Keep folder naming consistent and intuitive.
+- Show only practical directories and files.
+- Include short notes describing why each folder exists.
+- Keep the examples generic enough to reuse across technologies.
+
+Output:
+1. Frontend folder tree example.
+2. Backend folder tree example.
+3. DevOps folder tree example.
+4. Cloud folder tree example.
+5. Full-stack folder tree example.
+6. Short explanation under each tree.
